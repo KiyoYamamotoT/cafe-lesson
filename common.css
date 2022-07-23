@@ -1,0 +1,319 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+  overflow-x:hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.header_wrapper {
+  width: 100%;
+  background-color: rgb(142, 239, 134);
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header_nav ul {
+  width: 100%;
+  display: table;
+}
+
+.header_nav ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 3%;
+}
+
+.header_nav ul li a {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.header_nav ul li a:hover {
+  color: rgb(24, 103, 222);
+  border-bottom: solid 2px #ddd;
+}
+
+.top_wrapper {
+  position: relative;
+  width: 100%;
+  height:75vh;
+  overflow: hidden;
+  background: url("../img/shop4.png") no-repeat center;
+  background-size: cover;
+}
+
+.top_wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  }
+
+.top_inner {
+  position: absolute;
+  color: rgb(251, 249, 252);
+  font-size: 70px; z-index: 2;
+  margin-top: 150px;
+  margin-left: 400px;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  padding: 8% 0;
+  border-top: solid 3px rgb(210, 252, 205);
+}
+
+
+.font1 {
+  text-align: center;
+    font-size:40px;
+    font-weight: bold;
+    color: #555;
+}
+
+.font2{
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+
+.font3{
+  font-size: 20px;
+  margin-left: 100px;
+}
+.about_img_shop5 {
+  position: relative;
+}
+
+.about_img_shop5::after {
+  content: "";
+  position: absolute;
+  background: url("../img/shop5.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.font4{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.font5{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom:20px;
+ margin-left:50px; ;
+}
+
+.font6{
+  font-size:30px;
+  font-weight: lighter;
+  margin-left:50px;
+}
+
+
+
+.about_img_shop1 {
+  position: relative;
+}
+
+.about_img_shop1::after {
+  content: "";
+  position: absolute;
+  background: url("../img/shop1a.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.about_descript {
+  width: 40%;
+}
+
+.about_descript_right {
+  position: relative;
+  left: 60%;
+}
+  
+.menu {
+  background-color: rgb(245, 254, 251);
+}
+.menu_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  flex-wrap: wrap;
+}
+.bread_item{
+  margin-left: 50px;
+
+  margin-bottom: 20px;
+
+}
+
+
+.frame_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.frame {
+  width: 35%;
+  height: 100vh;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+
+.font7{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+ padding-bottom: 20px;
+}
+
+
+.cake_wrapper{
+margin-left: 250px;
+}
+.menu_item {
+  margin-left:60px;
+}
+
+.font7{
+  font-size: 20px;
+  padding-top: 50px;
+  margin-bottom: 8px;
+}
+
+.lunch_wrapper{
+  margin-left: 300pX;
+}
+
+.drink_item{
+  margin-left:230px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: rgb(13, 234, 76);
+  margin: 5% 0;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.takeout_item{
+  margin-left: 250px;
+  margin-top: 40px;
+}
+
+.button {
+  text-align: center;
+
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: rgb(13, 234, 76);
+  margin: 5% 0;
+  font-size: 28px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+.font8 {
+  margin-top: 100px;
+ margin-left: 250px;
+}
+
+.blog{
+ background-color: rgb(203, 244, 230);
+}
+
+.blog_wrapper {
+
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ .font8 {
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: #555;
+   margin-top: 2.5%;
+ }
+
+.blog_img{
+ margin-left: 25%;
+ margin-top: 5%;
+}
+.font8{
+  font-size: 25px;
+  margin-left:20px;
+}
+.contact_wrapper{ 
+  background-color:beige;
+}
+.font8 {
+  
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center; 
+  
+}
+
+.bottom { 
+  background-color: rgb(10, 155, 133);
+}
+
+.bottom .inner {
+  padding: 2.5%;
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(81, 245, 117);
+}
+  
+
+
+
+
+
+
+
